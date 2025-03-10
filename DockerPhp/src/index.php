@@ -6,7 +6,10 @@
     <title>Docker PHP App</title>
 </head>
 <body>
-    <h1>Welcome to Docker PHP App</h1>
-    <p>This is a standard HTML5 page served by PHP11.</p>
+    <h1>Welcome to Docker PHP App11</h1>
+    <p>This is a standard HTML5 page served by PHP11111.</p>
+    <?= "this is a thing" ?>
+    <?= date('Y-m-d H:i:s') ?>
+    <p>PHP Version: <?= phpversion() ?></p>
 </body>
 </html>
